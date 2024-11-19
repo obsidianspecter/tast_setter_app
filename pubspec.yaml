@@ -1,0 +1,25 @@
+name: task_setter_app
+description: A task setter application using Hive
+
+publish_to: "none" # Remove this line if you plan to publish the app
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  hive: ^2.2.3 # Correctly formatted line
+  hive_flutter: ^1.1.0 # Required to use Hive with Flutter
+  path_provider: ^2.0.11 # Required to get app's document directory
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.1.7 # For code generation, ensure correct version
+  hive_generator: ^1.1.1 # For generating Hive adapters
+
+flutter:
+  uses-material-design: true
