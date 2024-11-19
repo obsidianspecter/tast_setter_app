@@ -1,6 +1,3 @@
-
-
-```markdown
 # Task Setter App
 
 ## Overview
@@ -38,9 +35,7 @@ Before running this app, ensure that you have the following installed:
 
 Clone this repository to your local system using the following command:
 
-```bash
 git clone <repository-url>
-```
 
 ### 2. **Install Flutter**
 
@@ -54,9 +49,7 @@ If Flutter is not already installed on your system, follow these steps:
 
 Navigate to the project directory and run:
 
-```bash
 flutter pub get
-```
 
 This will fetch the required dependencies.
 
@@ -64,9 +57,7 @@ This will fetch the required dependencies.
 
 You can run the app directly on an emulator or connected device using the following command:
 
-```bash
 flutter run
-```
 
 ### 5. **Build and Install on Android/iOS Device**
 
@@ -76,29 +67,21 @@ To install and run the app on a physical Android/iOS device:
 1. Connect your Android phone via USB or use an emulator.
 2. Run the following command to build the APK:
 
-```bash
 flutter build apk
-```
 
 3. Install the APK on your phone using:
 
-```bash
 flutter install
-```
 
 #### For iOS (macOS Only):
 1. Connect your iPhone or use an iOS simulator.
 2. Run the following command:
 
-```bash
 flutter build ios
-```
 
 3. Install the app on your device using:
 
-```bash
 flutter install
-```
 
 ## Usage
 
@@ -119,15 +102,6 @@ flutter install
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 ---
-
-### Instructions in the README:
-- **App Description**: Detailed the app's features and functionality.
-- **Installation**: Included steps to install dependencies, run the app on a system, and install on both Android and iOS devices.
-- **Usage**: Described how users can interact with the app (adding tasks, marking them as completed, etc.).
-- **Contributing**: Explained how others can contribute to the project.
-
-This README should help anyone to install, run, and understand your app, as well as contribute to its development.
